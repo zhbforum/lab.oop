@@ -30,7 +30,8 @@ Vector operator--(Vector& v, int)
     return temp;
 }
 
-void Vector::print() const {
+void Vector::print() const 
+{
     cout << "(" << x << ", " << y << ")" << endl;
 }
 
