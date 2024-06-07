@@ -2,7 +2,7 @@
 
 int Triangle::instanceCount = 0;
 
-Triangle::Triangle(double a, double b, double c, const std::string& name)
+Triangle::Triangle(double a, double b, double c, const string& name)
     : sideA(a), sideB(b), sideC(c), objectName(name) { instanceCount++; }
 
 Triangle::~Triangle(){ instanceCount--; }
