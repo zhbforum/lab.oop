@@ -10,7 +10,7 @@ class Triangle
 public:
     static int instanceCount;
 
-    Triangle(double a, double b, double c, const std::string& name);
+    Triangle(double a, double b, double c, const string& name);
 
     ~Triangle();
 
