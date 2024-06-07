@@ -20,9 +20,9 @@ public:
     Route(string name);
     ~Route();
 
-    void setName(const string& newName);
-    void setStartPoint(const string& newStartPoint);
-    void setEndPoint(const string& newEndPoint);
+    void setName( string& newName);
+    void setStartPoint( string& newStartPoint);
+    void setEndPoint( string& newEndPoint);
     void setLength(double newLength);
     
     string getName();

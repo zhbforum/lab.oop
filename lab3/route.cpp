@@ -27,15 +27,15 @@ Route::~Route()
     cout << "Destructor call for " << name << endl;
 }
 
-void Route::setName(const string& newName) { name = newName; }
-void Route::setStartPoint(const string& newStartPoint) { startPoint = newStartPoint; }
-void Route::setEndPoint(const string& newEndPoint) { endPoint = newEndPoint; }
+void Route::setName( string& newName) { name = newName; }
+void Route::setStartPoint( string& newStartPoint) { startPoint = newStartPoint; }
+void Route::setEndPoint( string& newEndPoint) { endPoint = newEndPoint; }
 void Route::setLength(double newLength) { length = newLength; }
 
 string Route::getName() { return name; }
-string Route::getStartPoint() const { return startPoint; }
-string Route::getEndPoint() const { return endPoint; }
-double Route::getLength() const { return length; }
+string Route::getStartPoint()  { return startPoint; }
+string Route::getEndPoint()  { return endPoint; }
+double Route::getLength()  { return length; }
 
 void Route::printInfo() const 
 {
