@@ -15,8 +15,10 @@ Line::~Line() {}
 
 double Line::operator[](int index) const
 {
-    if (index == 0) return a;
-    if (index == 1) return b;
+    if (index == 0) 
+        return a;
+    if (index == 1) 
+        return b;
     throw out_of_range("Index out of range");
 }
 
